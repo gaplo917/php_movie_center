@@ -1,0 +1,86 @@
+  .welcom-message{
+    color:black;
+  }
+	.playing{
+		height:100%;
+		/*overflow-y:auto;*/
+		word-break:normal;
+	}
+	.menu{
+		word-break:break-all;
+		height:30%;
+		overflow-y:auto;
+	}
+	.actor{
+		height: 90px;
+		width: 60px;
+		margin-bottom: 5px;
+	}
+
+	body {
+	  position: relative; /* For scrollyspy */
+	  padding-top: 70px; /* Account for fixed navbar */
+
+	}
+	.dropdown-menu{
+	 max-height: 400px;
+	 overflow: auto;
+	 }
+
+   /*override for iphone;*/
+     @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+   /* CSS overrides for mobile here */
+      .dropdown-menu{
+        max-height: 2000px;
+        overflow:auto ;
+     }
+  }
+	 .playing-area{
+	 	/*padding-top: 50px;  Account for fixed navbar */
+    -webkit-box-shadow: none;
+    background-color: #FFFFFF;
+    border-bottom-color: rgb(211,211,211);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(211,211,211);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(211,211,211);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(211,211,211);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+
+	 }
+  .playing-area .tab-content{
+    padding-top: 10px;
+  }
+
+	 .welcom-message{
+		margin-top: 50px;
+	 }
+  footer{
+    margin-top :50px;
+    margin-bottom: 50px;
+  }

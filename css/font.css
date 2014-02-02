@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Audiowide'), local('Audiowide-Regular'), url(../plugin/audiowide/8XtYtNKEyyZh481XVWfVOrO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+.audio-wide{
+	font-family: Audiowide;
+}
+.text-l{
+	font-size: 22px;
+}
+.text-xs{
+	font-size: 11px;
+	margin-top:5px!important;
+}
+.text-gray{
+	color:gray;
+}
