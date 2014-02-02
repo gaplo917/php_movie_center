@@ -10,7 +10,14 @@ The online movie database part is based on the source code of https://github.com
 WHAT IS IT?
 It is a light online mp4 movie library with automatically serach the movie information for you and also with the youtbue trailer.
 
-REQUIREMENT
+REQUIREMENT 
+================
+PHP >= 5.2
+Chrome ( Window platform)
+Safari ( MAC OSX / IPHONE / IPAD)
+
+REQUIREMENT (optional)
+================
 (Strongly recommand although there is an api key which is for testing) 
 Register your api key http://www.themoviedb.org/
 1. Register your the movie db account
@@ -20,14 +27,9 @@ Register your api key http://www.themoviedb.org/
 5. Click Generate 
 6. Place it in /config/Config.php  $themoviedbapi
 
-PHP >= 5.2
-Chrome ( Window platform)
-Safari ( MAC OSX / IPHONE / IPAD)
-
-
 
 INSTALLATION
-
+================
 1. Download the zip from the right-hand side (on git)
 2. Move/upload the all files to your PHP server root say ( server_root/ ) and set the permission to 755
 3. Create a "share" folder on (server_root/)
@@ -41,7 +43,7 @@ INSTALLATION
 
 
 OPTIONAL
-
+================
 you can enable login in /config/Config.php by changing $need_login
 ie.
 public static $need_login = true
