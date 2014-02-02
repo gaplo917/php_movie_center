@@ -12,14 +12,17 @@ It is a light online mp4 movie library with automatically serach the movie infor
 
 REQUIREMENT 
 ================
-PHP >= 5.2
-Chrome ( Window platform)
-Safari ( MAC OSX / IPHONE / IPAD)
+1. PHP >= 5.2
+2. Chrome ( Window platform)
+3. Safari ( MAC OSX / IPHONE / IPAD)
+
 
 REQUIREMENT (optional)
 ================
+
 (Strongly recommand although there is an api key which is for testing) 
 Register your api key http://www.themoviedb.org/
+
 1. Register your the movie db account
 2. Go to home page http://www.themoviedb.org/
 3. Click on the top-right-hand side "account"
