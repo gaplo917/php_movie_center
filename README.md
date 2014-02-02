@@ -8,7 +8,8 @@ It is a PHP plugin with tested PHP_version = 5.2.
 The online movie database part is based on the source code of https://github.com/glamorous/TMDb-PHP-API. Big thanks to @Jonas De Smet providing such good php API for accessing themoviedb api. It saved me a lot of times.
 
 WHAT IS IT?
-It is a light online mp4 movie library with automatically serach the movie information for you and also with the youtbue trailer.
+================
+It is a light online MP4 movie library with automatically serach the movie information for you and also with the youtbue trailer.
 
 REQUIREMENT 
 ================
