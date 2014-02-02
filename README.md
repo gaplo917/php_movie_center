@@ -41,7 +41,7 @@ INSTALLATION
 6. Create a "vtt" folder on (server_root/share/sub/vtt)
 7. Use text editor(notepad/sublime,etc) to edit the /config/Config.php to suit you needs ( There are some comments you can read in that php). Most likely, you will only need to change the server name, server logo, themoviedb_api key.
 8. access to your server (server_root/php_movie_center/index.php)
-9. Place your favourite .mp4 (you can convert it from mkv without re-encoding) to the "mp4" folder alone with the .srt file.
+9. Place your favourite {mp4_name}.mp4 (you can convert it from mkv without re-encoding) to the "mp4" folder alone with the {mp4_name}.srt in "mp4/sub/" folder .
 10. Try to have fun with this plugin and done!
 
 
