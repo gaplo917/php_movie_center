@@ -10,12 +10,16 @@ The online movie database part is based on the source code of https://github.com
 WHAT IS IT?
 ================
 It is a light online MP4 movie library with automatically serach:
+
 1. the movie information
 2. the youtbue trailer.
 
 No MySQL is needed.
 In order to search smartly.
-Your mp4 formate should be "{movie_name}.{year}.{resolution}.{anything}.mp4"
+
+Your mp4 formate should be 
+
+"{movie_name}.{year}.{resolution}.{anything}.mp4"
 
 REQUIREMENT 
 ================
