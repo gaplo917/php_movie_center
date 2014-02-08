@@ -29,8 +29,7 @@ Class Subtitle{
 			$path .= $file_path_arr[$i].'/';
 		}
 		$file_name_extension = $file_path_arr[sizeof($file_path_arr)-1];
-		$file_name_extension_arr = explode('.', $file_name_extension);
-		$file_name = $file_name_extension_arr[0];
+		$file_name = str_replace('.srt', '', $file_name_extension);
 		file_put_contents($path."vtt/{$file_name}.vtt",$this->subtitle);
 	}
 	private function replaceCommaToDot($matches) {
