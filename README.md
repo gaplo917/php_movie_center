@@ -5,7 +5,7 @@ This plugin is written by HTML5 , Bootstrap , PHP And themoviedb API
 
 It is a PHP plugin with tested PHP_version = 5.2, English AND Chinese ONLY
 
-The online movie database part is based on the source code of https://github.com/glamorous/TMDb-PHP-API. Big thanks to @Jonas De Smet providing such good php API for accessing themoviedb api. It saved me a lot of times.
+One of the class is based on the source code of https://github.com/glamorous/TMDb-PHP-API. Big thanks to @Jonas De Smet providing such good php API for accessing themoviedb api. It saved me a lot of times.
 
 WHAT IS IT?
 ================
