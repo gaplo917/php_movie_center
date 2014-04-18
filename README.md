@@ -3,11 +3,16 @@ php_movie_center
 
 This plugin is written by HTML5 , Bootstrap , PHP And themoviedb API.
 
-It can help you to share you favourite FULL-HD video to your friends seamlessly. This is multiple-device-friendly, worked on PC*, iPhone**, iPad**, Android#.
+It can help you to share you favourite FULL-HD video to your friends seamlessly. This is multiple-device-friendly, worked on PC*, iPhone**, iPad**, Android***.
+
 
 *PC with chrome can only view external substitle
+
+
 **MacOS/iPhone/iPad with safari can only view the internal susbtitle of the MP4.
-#Tested android version >4.3 and chrome can view the subtitle, but not for full screen. It is the mobile chrome limitation.
+
+
+***Tested android version >4.3 and chrome can view the subtitle, but not for full screen. It is the mobile chrome limitation.
 
 It is a PHP plugin with tested PHP_version = 5.2, English AND Chinese ONLY
 
